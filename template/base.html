@@ -6,15 +6,16 @@
     <title>Blog Project</title>
 </head>
 <body>
-    <header>
-    {% block header %}
-    {% endblock header %}    
-    </header>
+        <header>
+            <ul>
+                <li><a href="{% url 'home' %}">home</a></li>
+            </ul>
+        </header> 
     <main>
     {% block main %}
     {% endblock main %}
     </main>
 
-    <footer>All rights reserved.</footer>
+    <footer>Finally</footer>
 </body>
 </html>
